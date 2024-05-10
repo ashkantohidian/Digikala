@@ -1,0 +1,73 @@
+/*The digiclub2 starts here*/
+
+div.wrapper>div.digiclub2{
+    width: 87%;
+    height: 95px;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+      radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    margin: 0 auto;
+    padding: 12px 16px;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+div.wrapper>div.digiclub2>div>img{
+    width: 119px;
+    height: 33px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+div.wrapper>div.digiclub2>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.wrapper>div.digiclub2>div:nth-of-type(1){
+    width: 460px;
+}
+
+div.wrapper>div.digiclub2>div>div{
+    display: inline-block;
+    margin-top: 5px;
+    background-color: white;
+    transform: translatey(-4px);
+    cursor: pointer;
+}
+
+div.wrapper>div.digiclub2>div>div:nth-of-type(1){
+    border-radius: 0 8px 8px 0;
+}
+
+div.wrapper>div.digiclub2>div>div:nth-of-type(3){
+    border-radius: 8px 0 0 8px;
+}
+
+div.wrapper>div.digiclub2>div>div>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.wrapper>div.digiclub2>div>div>div>img{
+    display: inline-block;
+    width: 168px;
+    height: 60px;
+    overflow: hidden;
+    object-fit: cover;
+    transform: translateY(3px);
+}
+
+div.wrapper>div.digiclub2>div>div>div>p{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+div.wrapper>div.digiclub2>div>div>div>p>i{
+    margin-left: 8px;
+    color: #00bfd6;
+    vertical-align: middle;
+}
+
+/*The digiclub2 ends here*/

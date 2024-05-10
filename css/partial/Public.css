@@ -1,0 +1,22 @@
+/*The digiclub(Public) starts here*/
+
+div.wrapper>div.digiclub{
+    width: 88%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+div.wrapper>div.digiclub>div{
+    display: inline-block;
+    width: 23.9%;
+    margin: 0 5px;
+}
+
+div.wrapper>div.digiclub>div>img{
+    width: 100%;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/*The digiclub(Public) ends here*/

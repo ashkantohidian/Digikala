@@ -1,0 +1,22 @@
+/*The container starts here*/
+
+div.wrapper>div.container{
+    width: 88%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+div.wrapper>div.container>div{
+    display: inline-block;
+    width: 49%;
+    margin: 0 5px;
+}
+
+div.wrapper>div.container>div>img{
+    width: 100%;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/*The container ends here*/

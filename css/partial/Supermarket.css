@@ -1,0 +1,94 @@
+/*The amazing-supermarket starts here*/
+
+div.wrapper>div.amazing-supermarket{
+    width: 88%;
+    height: 110px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 0 30px;
+    background: url(../../pics/supermarket.svg) left center no-repeat #ebeeeb;
+    cursor: pointer;
+}
+
+div.wrapper>div.amazing-supermarket>div{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: calc(50% - 39px);
+}
+
+div.wrapper>div.amazing-supermarket>div>div{
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+
+div.wrapper>div.amazing-supermarket>div>div>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+  
+div.wrapper>div.amazing-supermarket>div:nth-of-type(1){
+    width: 7%;
+}
+
+div.wrapper>div.amazing-supermarket>div:nth-of-type(2){
+    width: 22.5%;
+}
+
+div.wrapper>div.amazing-supermarket>div:nth-of-type(3){
+    width: 19.5%;
+}
+
+div.wrapper>div.amazing-supermarket>div:nth-of-type(4)>div{
+    height: 85px;
+    padding: 5px;
+    margin-left: -5.5px;
+    border-radius: 50%;
+}
+
+div.wrapper>div.amazing-supermarket>div:nth-of-type(3)>p{
+    background-color: #39ae00;
+    width: fit-content;
+    padding: 4px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+div.wrapper>div.amazing-supermarket>div:nth-of-type(5)>p{
+    background-color: white;
+    padding: 14px 23.2px;
+    border-radius: 24px;
+    font-size: 13px;
+    margin-right: 2.5px;
+    color: #39ae00;
+}
+
+div.wrapper>div.amazing-supermarket>div:nth-of-type(5)>p>i{
+    padding-right: 5px;
+}
+
+div.wrapper>div.amazing-supermarket>div>div>span{
+    position: absolute;
+    left: 45px;
+    bottom: 0px;
+    width: 35px;
+    height: 20px;
+    background-color: #d32f2f;
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+div.wrapper>div.amazing-supermarket>div:nth-of-type(1)>img{
+    width: 66px;
+    height: 62px;
+}
+
+/*The amazing-supermarket ends here*/

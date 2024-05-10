@@ -1,0 +1,111 @@
+/*The choosen(Auctions) starts here*/
+
+div.wrapper>div.choosen{
+  width: 87%;
+  margin: 0 auto;
+  padding: 0 12px;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+
+div.wrapper>div.choosen>div.h3-text{
+  text-align: center;
+  margin-bottom: 28px;
+  padding: 16px 0;
+  margin-bottom: 8px;
+}
+
+div.wrapper>div.choosen>div.h3-text>h3{
+  display: inline-block;
+}
+
+div.wrapper>div.choosen>div>div{
+  text-align: center;
+}
+
+div.wrapper>div.choosen>div>div{
+  border-bottom: 1px solid #f0f0f1;
+  margin-top: -15px;
+}
+
+div.wrapper>div.choosen>div>div:nth-of-type(3){
+  border: unset;
+}
+
+div.wrapper>div.choosen>div>div>div{
+  display: inline-block;
+  width: 210px;
+  height: 238px;
+  padding: 12px 8px;
+  border-left: 1px solid #f0f0f1;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 15px;
+  padding-top: 24px;
+}
+
+div.wrapper>div.choosen>div>div>div:nth-last-of-type(1){
+  border: unset;
+}
+
+div.wrapper>div.choosen>div>div>div>div:nth-of-type(1)>img{
+  width: 150px;
+  height: 150px;
+}
+
+div.wrapper>div.choosen>div>div>div>div:nth-of-type(2)>img{
+  width: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+}
+
+div.wrapper>div.choosen>div>div>div>div:nth-of-type(2){
+  text-align: left;
+  padding-top: 10px;
+}
+
+div.wrapper>div.choosen>div>div>div>div:nth-of-type(2)>p{
+  display: inline-block;
+  font-size: 17px;
+  text-align: left;
+  padding-right: 2px;
+  font-weight: 600;
+  color: #3f4064;
+  padding-bottom: 5px;
+}
+
+div.wrapper>div.choosen>div>div>div>div:nth-of-type(2)>span{
+  font-size: 11px;
+  position: absolute;
+  right: 0;
+  width: 35px;
+  height: 20px;
+  background-color: #d32f2f;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 4px;
+  margin-right: 3px;
+}
+
+div.wrapper>div.choosen>div>div>div>div:nth-of-type(3)>p:nth-of-type(1){
+  text-align: left;
+  margin-left: 26px;
+  font-size: 10px;
+  color: #c0c2c5;
+  text-decoration: line-through;
+}
+
+div.wrapper>div.choosen>div>div>div>div:nth-of-type(3)>p:nth-of-type(2){
+  text-align: left;
+  font-size: 12px;
+  color: #d32f2f;
+  position: absolute;
+  right: 810px;
+}
+
+/*The choosen(Auctions) ends here*/

@@ -1,0 +1,97 @@
+/*The story starts here*/
+
+div.wrapper>div.story{
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+div.wrapper>div.story>div{
+    width: 100px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+}
+
+div.wrapper>div.story>div>div.img{
+    width: 75px;
+    height: 75px;
+    margin: 18px auto 0 auto;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 3px;
+    cursor: pointer;
+}
+
+div.wrapper>div.story>div>div.img>img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+div.wrapper>div.story>div>p{
+    width: 100%;
+    margin-top: 8px;
+    font-size: 11.5px;
+}
+
+div.wrapper>div.cover{
+    width: 100%;
+    height: 830px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.display{
+    display: block !important;
+}
+
+div.wrapper>div.cover>div.box{
+    width: 360px;
+    height: 710px;
+    background-color: #0c0c0c;
+    left: calc(50% - 362px / 2);
+    position: absolute;
+}
+
+div.wrapper>div.cover>div.box>video{
+    width: 360px;
+    top: 20px;
+    height: 610px;
+    position: absolute;
+}
+
+div.wrapper>div.cover>div.box>div.icon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+}
+
+div.wrapper>div.cover>div.box>div.icon>i{
+    padding: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+div.wrapper>div.cover>div.box>div>p{
+    width: 75px;
+    height: 35px;
+    top: 35px;
+    left: 10px;
+    position: absolute;
+    background-color: #fff;
+    color: #0c0c0c;
+    text-align: center;
+    font-size: 12.5px;
+    line-height: 35px;
+    border-radius: 7px;
+}
+
+/*The story ends here*/

@@ -1,0 +1,16 @@
+/*The img1(Shoes offer) starts here*/
+
+div.wrapper>div.img1{
+    width: 87%;
+    margin: 0 auto;
+    height: 167px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+div.wrapper>div.img1>img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+/*The img1(Shoes offer) ends here*/

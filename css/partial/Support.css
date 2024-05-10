@@ -1,0 +1,21 @@
+/*The support starts here*/
+
+div.wrapper>div.support{
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #ef3c52;
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+div.wrapper>div.support>i{
+    font-size: 24px;
+    transform: translateY(-2px);
+}
+
+/*The support ends here*/

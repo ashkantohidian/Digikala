@@ -1,0 +1,25 @@
+/*The imports starts here*/
+
+@import "./partial/Setting.css";
+@import "./partial/Header.css";
+@import "./partial/MegaMenu.css";
+@import "./partial/Story.css";
+@import "./partial/Swiper.css";
+@import "./partial/Digiget.css";
+@import "./partial/Shegeft.css";
+@import "./partial/Supermarket.css";
+@import "./partial/Public.css";
+@import "./partial/Categories.css";
+@import "./partial/Container.css";
+@import "./partial/Popularbrands.css";
+@import "./partial/Visits.css";
+@import "./partial/Digiplus.css";
+@import "./partial/Digiclub.css";
+@import "./partial/Mostselling.css";
+@import "./partial/Shoesoffer.css";
+@import "./partial/Auctions.css";
+@import "./partial/Readings.css";
+@import "./partial/Footer.css";
+@import "./partial/Support.css";
+
+/*The imports ends here*/

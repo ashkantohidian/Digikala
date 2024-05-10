@@ -1,0 +1,316 @@
+/*The footer starts here*/
+
+div.wrapper>div.footer{
+    width: 100%;
+    border-top: 1px solid #f0f0f1;
+    margin-top: 48px;
+    padding-top: 32px;
+}
+
+div.wrapper>div.footer>div:nth-of-type(1){
+    padding: 0 20px;
+}
+
+div.wrapper>div.footer>div>div.digi>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.wrapper>div.footer>div>div.digi>div>img{
+    width: 113px;
+}
+
+div.wrapper>div.footer>div>div.digi>div:nth-of-type(1){
+    width: 89%;
+}
+
+div.wrapper>div.footer>div>div.digi>div:nth-of-type(2)>a{
+    padding: 12px 24px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    color: #a1a3a8;
+    font-size: 12px;
+}
+
+div.wrapper>div.footer>div>div.digi>div:nth-of-type(2)>a>i{
+    margin-right: 8px;
+}
+
+
+div.wrapper>div.footer>div>div.phone{
+    padding: 16px 0;
+}
+
+div.wrapper>div.footer>div>div.phone>p{
+    display: inline-block;
+    font-size: 13px;
+    color: #3f4064;
+}
+
+div.wrapper>div.footer>div>div.phone>div{
+    display: inline-block;
+    height: 12px;
+    width: 1px;
+    background-color: #a2aabe;
+    margin: 0 12px;
+}
+
+div.wrapper > div.footer > div > div.delivery{
+    margin: 24px 0;
+    text-align: center;
+}
+
+div.wrapper>div.footer>div>div.delivery>div{
+    display: inline-block;
+    text-align: center;
+    margin: 0 90px;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div>div.delivery>div>img{
+    width: 58px;
+}
+
+div.wrapper>div.footer>div>div.delivery>div>p{
+    font-size: 11px;
+    color: #3f4064;
+}
+
+div.wrapper>div.footer>div>div.div4> div{
+    display: inline-block;
+    vertical-align: top;
+    width: 24.5%;
+    text-align: right;
+}
+
+div.wrapper>div.footer>div>div.div4{
+    padding: 16px 0;
+    text-align: center;
+}  
+
+div.wrapper>div.footer>div>div.div4>div>h4{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #3f4064;
+}
+
+div.wrapper>div.footer>div>div.div4>div>ul>li{
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #81858b;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div>div.div4>div>div>i{
+    font-size: 40px;
+    width: 70px;
+    height: 50px;
+    color: #a1a3a8;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div>div.div4>div>input{
+    background-color: #f0f0f1;
+    width: 275px;
+    height: 48px;
+    border: unset;
+    border-radius: 8px;
+    padding: 0 8px;
+    font-size: 15px;
+}
+
+div.wrapper>div.footer>div>div.div4>div>button{
+    height: 48px;
+    text-align: center;
+    width: 52px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: #e0e0e2;
+    font-size: 15px;
+    border: unset;
+}
+
+div.wrapper>div.footer>div>div.download{
+    width: 100%;
+    height: 76px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #3c4b6d;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    padding: 8px 20px;
+}
+
+div.wrapper>div.footer>div>div.download>div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 7px;
+}
+
+div.wrapper>div.footer>div>div.download>div:nth-of-type(1)>img{
+    width: 44px;
+    height: 44px;
+}
+
+div.wrapper>div.footer>div>div.download>div:nth-of-type(2){
+    width: 855px;
+    margin-bottom: 10px;
+}
+
+div.wrapper>div.footer>div>div.download>div:nth-of-type(2)>p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 8px;
+    cursor: default;
+}
+
+div.wrapper>div.footer>div>div.download>div:nth-of-type(3)>img{
+    width: 142px;
+    height: 44px;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div>div.download>div:nth-of-type(4)>img{
+    width: 142px;
+    height: 44px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div>div.download>div:nth-of-type(5)> img{
+    width: 142px;
+    height: 44px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+  
+div.wrapper>div.footer>div>div.download>div:nth-of-type(6){
+    background-color: white;
+    transform: translateY(-6px);
+    border-radius: 4px;
+    margin-right: 17px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div>div.download>div:nth-of-type(6)>img{
+    width: 44px;
+    height: 44px;
+    margin-top: -11px;
+    object-fit: cover;
+    transform: translateY(11px);
+}
+
+div.wrapper>div.footer>div>div.about{
+    border-top: 1px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
+    padding: 32px 0;
+}
+
+div.wrapper>div.footer>div>div.about>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(1){
+    width: 75%;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(2){
+    width: 24%;
+    text-align: left;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(1)>h2{
+    color: #62666d;
+    line-height: 2.1;
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(1)>p{
+    font-size: 12px;
+    color: #81858b;
+    line-height: 2.17;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(1)>p:nth-of-type(2){
+    color: #b5b8c0c5;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(1)>p:nth-of-type(3){
+    margin-top: 8px;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(1)>p:nth-of-type(3)>a{
+    color: #19bfd3;
+    font-size: 12px;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(2)>div{
+    display: inline-block;
+    padding: 16px;
+    margin-bottom: 40px;
+    margin-right: 3px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div>div.about>div:nth-of-type(2)>div>img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+div.wrapper>div.footer>div>div.copyright>p{
+    text-align: center;
+    font-size: 11px;
+    padding: 32px 0;
+    color: #81858b;
+}
+  
+div.wrapper>div.footer>div.digi>div{
+    background-color: #f0f0f1;
+}
+
+div.wrapper>div.footer>div.digi>div:nth-of-type(1){
+    border-bottom: 1px solid #e0e0e2;
+}
+
+div.wrapper>div.footer>div.digi>div:nth-of-type(1)>div{
+    padding: 30px 15px;
+    background-color: #f0f0f1;
+    display: inline-block;
+    height: 80px;
+    width: 183px;
+    border-right: 1px solid #e0e0e2;
+}
+
+div.wrapper>div.footer>div.digi>div.one>div>img{
+    vertical-align: top;
+    width: 165px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+div.wrapper>div.footer>div.digi>div.two>div>img{
+    vertical-align: top;
+    width: 165px;
+    padding: 0 30px;
+    cursor: pointer;
+    margin-right: -80px;
+}
+
+div.wrapper>div.footer>div.digi>div:nth-of-type(2)>div{
+    padding: 30px 105px;
+    width: 185px;
+    background-color: #f0f0f1;
+    display: inline-block;
+    height: 80px;
+    border-right: 1px solid #e0e0e2;
+}
+
+/*The footer ends here*/

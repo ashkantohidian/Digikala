@@ -1,0 +1,74 @@
+/*The mobile(Visits) starts here*/
+
+div.wrapper>div.mobile{
+    width: 87%;
+    margin: 0 auto;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+div.wrapper>div.mobile>div{
+    display: inline-block;
+    vertical-align: top;
+    width: 24.60%;
+    padding: 8px 20px;
+    border-left: 1px solid #f0f0f1;
+}
+
+div.wrapper>div.mobile>div>div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.wrapper>div.mobile>div:nth-last-of-type(1){
+    border: unset;
+}
+
+div.wrapper>div.mobile>div>div>img{
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+div.wrapper>div.mobile>div>div>img:nth-of-type(1){
+    border-left: 1px solid #f0f0f1;
+    margin-bottom: -10px;
+}
+
+div.wrapper>div.mobile>div>div>img:nth-of-type(2){
+    border-bottom: 1px solid #f0f0f1;
+    margin-bottom: -10px;
+}
+
+div.wrapper>div.mobile>div>div>img:nth-of-type(3){
+    border-top: 1px solid #f0f0f1;
+    border-left: 1px solid #f0f0f1;
+}
+  
+div.wrapper>div.mobile>div>h4{
+    font-size: 16px;
+    color: rgb(56, 53, 61);
+}
+
+div.wrapper>div.mobile>div>p:nth-of-type(1){
+    font-size: 11px;
+    margin: 10px 0;
+    color: gray;
+}
+
+div.wrapper>div.mobile>div>p:nth-of-type(2){
+    color: #19bfd3;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+div.wrapper>div.mobile>div>p:nth-of-type(2)>i{
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+/*The mobile(Visits) ends here*/

@@ -1,0 +1,20 @@
+/*The Setting starts here*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: IRANYekanFN;
+  }
+  
+  @font-face {
+      font-family: IRANYekanFN;
+      src: url(../../font/eot/IRANYekanFN-Regular.eot);
+      src: url(../../font/woff/IRANYekanFN-Regular.woff) format("woff"),
+      url(../../font/ttf/IRANYekanFN-Regular.ttf) format("ttf")
+      url(../../font/woff2/IRANYekanFN-Regular.woff2) format("woff2");
+  }
+
+/*The Setting ends here*/

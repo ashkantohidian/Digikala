@@ -1,0 +1,56 @@
+/*The digiget starts here*/
+
+div.wrapper>div.digiget{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+
+div.wrapper>div.digiget>div{
+    width: 100px;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 33px;
+}
+
+div.wrapper>div.digiget>div>div.img1{
+    width: 60px;
+    height: 60px;
+    margin: 18px auto 0 auto;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+}
+
+div.wrapper>div.digiget>div>div.img1>img{
+    width: 100%;
+    border-radius: 25%;
+}
+
+div.wrapper>div.digiget>div>div.img{
+    width: 60px;
+    height: 60px;
+    margin: 18px auto 0 auto;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+}
+
+div.wrapper>div.digiget>div>div.img>img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+div.wrapper>div.digiget>div:nth-of-type(8)>div.img{
+    padding: 14px;
+    background-color: #f0f0f1;
+}
+ 
+div.wrapper>div.digiget>div>p{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/*The digiget ends here*/

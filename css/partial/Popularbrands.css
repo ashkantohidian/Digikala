@@ -1,0 +1,35 @@
+/*The popular-brands starts here*/
+
+div.wrapper>div.popular-brands{
+    width: 87%;
+    height: fit-content;
+    margin: 0 auto;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    padding: 24px 0;
+    margin-top: 10px;
+}
+
+div.wrapper>div.popular-brands>div.h3-text{
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+div.wrapper>div.popular-brands>div.h3-text>h3{
+    display: inline-block;
+}
+
+div.wrapper>div.popular-brands>div.swiper.mySwiper3>div.swiper-wrapper>div{
+    padding: 4px 23px;
+    border-left: 1px solid #f0f0f1;
+    height: 118px;
+}
+
+div.wrapper>div.popular-brands>div.swiper.mySwiper3>div.swiper-wrapper>div>img{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/*The popular-brands ends here*/

@@ -1,0 +1,182 @@
+/*The shegeft starts here*/
+
+div.wrapper>div.shegeft{
+    width: 88%;
+    height: 300px;
+    background-color: #ef3c52;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px 2px;
+}
+
+div.swiper-slide>div.img01{
+    width: 105%;
+    height: 125px;
+    background-color: #ef3c52;
+    margin-bottom: -30px;
+    padding-top: 11px;
+}
+
+div.swiper-slide>div.img01>img{
+    width: 40%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+div.swiper-slide>div.img02{
+    width: 100%;
+    height: 130px;
+    background-color:#ef3c52;;
+}
+
+div.swiper-slide>div.img02>img{
+    width: 60%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+div.swiper-slide>a{
+    font-size: 14px;
+    margin-right: 3px;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+div.swiper-slide>a>i{
+    font-size: 12px;
+}
+
+.bg{
+    background-color: transparent;
+}
+
+div.swiper-slide>div{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+div.swiper-slide>div>div.image{
+    width: 100%;
+    height: 60%;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+div.swiper-slide>div>div.image>div{
+    width: 85%;
+    margin: 0 auto;
+}
+
+div.swiper-slide>div>div.price{
+    width: 100%;
+    height: 13%;
+}
+
+div.swiper-slide>div>div.price>div.number{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: left;
+    
+    color: #3f4064;
+    font-weight: 600;
+}
+
+div.swiper-slide>div>div.price>div.number>img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.swiper-slide>div>div.price>div.box{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top
+}
+
+div.swiper-slide>div>div.price>div.box>div{
+    width: 35px;
+    height: 20px;
+    background-color: #d32f2f;
+    border-radius: 10px;
+    font-size: 13px;
+    color: whitesmoke;
+    line-height: 20px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+div.swiper-slide>div>div.off{
+    width: 100%;
+    height: 13%;
+    color: #c0c2c5;
+    font-size: 12px;
+    text-decoration: 1px line-through solid;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 36px;
+}
+
+div.swiper-slide>div>div.slide{
+    width: 100%;
+    height: 14%;
+    padding-top: 10px;
+}
+
+div.swiper-slide>div>div.slide>div{
+    width: 82%;
+    height: 4px;
+    background-color:#f0f0f1;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+div.swiper-slide>div>div.slide>div>div{
+    width: 70%;
+    height: 4px;
+    background-color: #ef3c52;
+    border-radius: 3px;
+}
+
+div.swiper-slide>div.end{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+}
+
+div.swiper-slide>div.end>div.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #19bfd3;
+    margin: 0 auto;
+}
+
+div.swiper-slide>div.end>div.icon{
+    color: #19bfd3;
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+div.swiper-slide>div.end>div>p{
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.radius-right{
+    border-radius: 0 10px 10px 0;
+}
+
+.radius-left{
+    border-radius: 10px 0 0 10px;
+}
+
+/*The shegeft ends here*/

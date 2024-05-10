@@ -1,0 +1,119 @@
+/*The header starts here*/
+
+div.wrapper{
+  width: 100%;
+  height: 60px;
+}
+
+div.wrapper>div.header{
+    width: 100%;
+    height: 60px;
+    background-image:url(../../pics/header.gif);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+div.wrapper>div.logo{
+    width: 100%;
+    height: 70px;
+    top: 60px;
+    line-height: 70px;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+}
+
+div.wrapper>div.logo>div.cart{
+    width: 4.5%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+div.wrapper>div.logo>div.cart>div{
+    width: 90%;
+    height: 25px;
+    margin-top: 25px;
+    text-align: center;
+    border-right: 1px solid #e0e0e2;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+div.wrapper>div.logo>div.cart>div>i{
+    font-size: 18px;
+}
+
+div.wrapper>div.logo>div.log-in{
+    width: 9%;
+    height: inherit;
+    display: inline-block;
+}
+
+div.wrapper>div.logo>div.log-in>div{
+    width: 100%;
+    height: 42px;
+    margin-top: 9px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    line-height: 42px;
+    cursor: pointer;
+    font-size: 12.5px;
+    font-weight: 600;
+}
+
+div.wrapper>div.logo>div.log-in>div>i{
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+div.wrapper>div.logo>div.search{
+    width: 75%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    direction: rtl;
+    position: relative;
+}
+
+div.wrapper>div.logo>div.search>input{
+    all: unset;
+    width: 50%;
+    height: 44px;
+    margin-top: 7px;
+    font-size: 13px;
+    background-color: rgb(240, 240, 241);
+    font-weight: 400;
+    overflow: hidden;
+    border-radius: 8px;
+    padding-right: 45px;
+}
+
+div.wrapper>div.logo>div.search>i{
+  position: absolute;
+  right: 17px;
+  top: 30px;
+  cursor: pointer;
+}
+
+div.wrapper>div.logo>div.logo{
+    width: 8.5%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.wrapper>div.logo>div.logo>a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+/*The header ends here*/
